@@ -1,5 +1,19 @@
+/*Colour pallette:
+	#6E1313 - dark red
+	#A10D0D - bright red
+	#610505 - darker red
+	#610000
+	#5C0000 - darker red*/
+
+
 html, body {
 	height: 100%;
+}
+
+#header-nav {
+	background-color: #5C0000;
+	background-image: none;
+	border-radius: 0;
 }
 
 .container-fluid {
@@ -9,6 +23,11 @@ html, body {
 
 footer {
 	color: white;
+}
+
+#footerNav {
+	background-color: #5C0000;
+	background-image: none;
 }
 
 #copyright {
