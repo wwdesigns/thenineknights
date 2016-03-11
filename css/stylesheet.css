@@ -9,18 +9,60 @@
 html, body {
 	height: 100%;
 	background-color: #262626;
+	color: white;
+
 }
 
 #header-nav {
 	background-color: #5C0000;
 	background-image: none;
 	border-radius: 0;
+	box-sizing: border-box;
 }
 
 .container-fluid {
 	width: 100%;
 	height: 100%;
 }
+
+#banner {
+	height: 150px; /*just a temporary height as there is no content yet*/
+	width: 100%;
+	background-color: #6E1313;
+	border-radius: 5px;
+	box-shadow: 0 0 30px #5C0000;
+	border: 2px solid #5C0000;
+	margin-bottom: 20px;
+}	
+
+.col-md-6 {
+	width: 50%;
+}
+
+#rightDiv {
+	height: 300px; /*just a temporary height as there is no content yet*/
+	background-color: #6E1313;
+	border-radius: 5px;
+	box-shadow: 0 0 30px #5C0000;
+	border: 2px solid #5C0000;
+	padding: 5px;
+}
+#leftDiv {
+	height: 300px; /*just a temporary height as there is no content yet*/
+	background-color: #6E1313;
+	border-radius: 5px;
+	box-shadow: 0 0 30px #5C0000;
+	border: 2px solid #5C0000;
+}
+
+
+
+
+
+
+
+
+
 
 footer {
 	color: white;
